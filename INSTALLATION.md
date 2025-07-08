@@ -1,5 +1,10 @@
 # Installation Guide - Python Data Structures Practice
 
+[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://chevyphillip.github.io/python-data-structures-practice/)
+[![Repository](https://img.shields.io/badge/repo-GitHub-blue)](https://github.com/chevyphillip/python-data-structures-practice)
+
+**🌐 Live Documentation:** [https://chevyphillip.github.io/python-data-structures-practice/](https://chevyphillip.github.io/python-data-structures-practice/)
+
 This guide provides instructions for setting up the project dependencies using both **uv** (recommended) and **pip** package managers.
 
 ## Prerequisites
@@ -192,3 +197,9 @@ jupyter kernelspec list
 - **All versions**: Compatible with Python 3.12+ requirement
 
 This approach balances stability with flexibility, allowing for security updates while maintaining compatibility.
+
+---
+
+**🌐 For the latest documentation and updates, visit:** [https://chevyphillip.github.io/python-data-structures-practice/](https://chevyphillip.github.io/python-data-structures-practice/)
+
+**📂 Repository:** [https://github.com/chevyphillip/python-data-structures-practice](https://github.com/chevyphillip/python-data-structures-practice)
