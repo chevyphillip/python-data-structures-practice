@@ -1,0 +1,78 @@
+# GitHub Pages Configuration for Python Data Structures Practice
+title: "Python Data Structures Practice"
+description: "Educational Python repository for WGU's Master of Science in Software Engineering - AI Engineering program. Interactive Jupyter notebooks teaching data structures with ADHD-friendly exercises."
+
+# Site settings
+baseurl: "/python-data-structures-practice"
+url: "https://chevyphillip.github.io"
+
+# Repository information
+repository: "chevyphillip/python-data-structures-practice"
+github_username: chevyphillip
+
+# Theme
+theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - README.md
+  - INSTALLATION.md
+  - STUDY_GUIDE.md
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Collections for better organization
+collections:
+  notebooks:
+    output: true
+    permalink: /:collection/:name/
+  solutions:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude files from processing
+exclude:
+  - .venv/
+  - __pycache__/
+  - "*.py[oc]"
+  - build/
+  - dist/
+  - wheels/
+  - "*.egg-info"
+  - uv.lock
+  - verify_requirements.py
+  - main.py
+
+# Include files that start with underscore
+include:
+  - _config.yml
+
+# SEO and social
+author: "Chevy Phillip"
+twitter:
+  username: chevyphillip
+social:
+  name: "Chevy Phillip"
+  links:
+    - "https://github.com/chevyphillip"
+
+# Google Analytics (optional - add your tracking ID if needed)
+# google_analytics: UA-XXXXXXXX-X
+
+# Show excerpts on homepage
+show_excerpts: true
+
+# Date format
+date_format: "%B %d, %Y"
