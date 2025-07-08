@@ -37,10 +37,10 @@ kramdown:
 collections:
   notebooks:
     output: true
-    permalink: /:collection/:name/
+    permalink: /notebooks/:name/
   solutions:
     output: true
-    permalink: /:collection/:name/
+    permalink: /solutions/:name/
 
 # Exclude files from processing
 exclude:
@@ -54,6 +54,9 @@ exclude:
   - uv.lock
   - verify_requirements.py
   - main.py
+  - templates/
+  - tests/
+  - site/
 
 # Include files that start with underscore
 include:
