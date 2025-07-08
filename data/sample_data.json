@@ -1,0 +1,62 @@
+{
+  "playlist_data": [
+    {
+      "song": "Blinding Lights",
+      "artist": "The Weeknd",
+      "genre": "Pop",
+      "duration": 200,
+      "release_year": 2019
+    },
+    {
+      "song": "One Dance",
+      "artist": "Drake",
+      "genre": "Pop",
+      "duration": 174,
+      "release_year": 2016
+    },
+    {
+      "song": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "genre": "Rock",
+      "duration": 355,
+      "release_year": 1975
+    },
+    {
+      "song": "Shape of You",
+      "artist": "Ed Sheeran",
+      "genre": "Pop",
+      "duration": 233,
+      "release_year": 2017
+    },
+    {
+      "song": "Hotel California",
+      "artist": "Eagles",
+      "genre": "Rock",
+      "duration": 391,
+      "release_year": 1976
+    }
+  ],
+  "ai_models": [
+    {
+      "name": "GPT-4",
+      "type": "language_model",
+      "parameters": "1.7T",
+      "training_data": "web_text",
+      "capabilities": ["text_generation", "reasoning", "coding"]
+    },
+    {
+      "name": "BERT",
+      "type": "language_model", 
+      "parameters": "340M",
+      "training_data": "books_wikipedia",
+      "capabilities": ["text_classification", "sentiment_analysis"]
+    },
+    {
+      "name": "ResNet-50",
+      "type": "vision_model",
+      "parameters": "25M",
+      "training_data": "imagenet",
+      "capabilities": ["image_classification", "feature_extraction"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# Python Data Structures Practice - Requirements
+# Compatible with both pip and uv package managers
+# Python 3.12+ required (as specified in pyproject.toml)
+
+# Core Dependencies - Essential for running Jupyter notebooks
+notebook==7.4.4                # Jupyter notebook interface for .ipynb files
+ipykernel>=6.29.0              # Python kernel for Jupyter (auto-installed with notebook)
+
+# Development Dependencies - Recommended for code quality
+pytest==8.4.1                  # Testing framework (mentioned in CLAUDE.md)
+black>=24.0.0                  # Code formatter for consistent style
+flake8>=7.0.0                  # Linting tool for code quality
+mypy>=1.8.0                    # Type checking for better code quality
+
+# Optional Dependencies - Enhanced development experience
+jupyterlab>=4.0.0              # Modern Jupyter interface (alternative to classic notebook)
+ipywidgets>=8.0.0              # Interactive widgets for enhanced learning experience
+
+# Documentation Dependencies (Optional)
+# Uncomment if you plan to generate documentation
+# sphinx>=7.0.0                # Documentation generator
+# sphinx-rtd-theme>=2.0.0      # Read the Docs theme for Sphinx
+
+# Version Constraints Explanation:
+# - notebook==7.4.4: Pinned to latest stable version for consistency
+# - pytest==8.4.1: Pinned to latest stable version for consistency  
+# - Other packages use >= for flexibility while ensuring minimum required features
+# - All versions are compatible with Python 3.12+ as required by your project
