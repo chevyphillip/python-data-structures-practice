@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "topic": "{TOPIC_NAME}",
+    "difficulty": "{DIFFICULTY_LEVEL}",
+    "data_structures": ["{DATA_STRUCTURE_1}", "{DATA_STRUCTURE_2}"],
+    "created_date": "{CREATION_DATE}",
+    "description": "{DATA_DESCRIPTION}"
+  },
+  "sample_datasets": {
+    "exercise_1": {
+      "description": "{EXERCISE_1_DATA_DESCRIPTION}",
+      "format": "{DATA_FORMAT}",
+      "data": "{EXERCISE_1_DATA}"
+    },
+    "exercise_2": {
+      "description": "{EXERCISE_2_DATA_DESCRIPTION}",
+      "format": "{DATA_FORMAT}",
+      "data": "{EXERCISE_2_DATA}"
+    },
+    "challenge": {
+      "description": "{CHALLENGE_DATA_DESCRIPTION}",
+      "format": "{DATA_FORMAT}",
+      "data": "{CHALLENGE_DATA}"
+    }
+  },
+  "test_cases": {
+    "exercise_1": {
+      "input": "{EXERCISE_1_TEST_INPUT}",
+      "expected_output": "{EXERCISE_1_EXPECTED_OUTPUT}"
+    },
+    "exercise_2": {
+      "input": "{EXERCISE_2_TEST_INPUT}",
+      "expected_output": "{EXERCISE_2_EXPECTED_OUTPUT}"
+    },
+    "challenge": {
+      "input": "{CHALLENGE_TEST_INPUT}",
+      "expected_output": "{CHALLENGE_EXPECTED_OUTPUT}"
+    }
+  },
+  "learning_objectives": [
+    "{LEARNING_OBJECTIVE_1}",
+    "{LEARNING_OBJECTIVE_2}",
+    "{LEARNING_OBJECTIVE_3}"
+  ],
+  "prerequisites": [
+    "{PREREQUISITE_1}",
+    "{PREREQUISITE_2}"
+  ],
+  "extensions": [
+    "{EXTENSION_1}",
+    "{EXTENSION_2}"
+  ]
+}

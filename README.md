@@ -29,6 +29,16 @@ This repository contains reinforcement exercises for **Lists, Dictionaries, and 
 - `03_sets_basics.ipynb` - Set operations and logic
 - `04_combined_practice.ipynb` - Multi-structure problems
 - `05_ai_scenarios.ipynb` - AI/ML relevant applications
+- `06_tuples_advanced.ipynb` - Tuple operations and named tuples (🟡 Intermediate)
+
+### 🔧 Learning Framework
+
+- `framework/` - Systematic content creation tools
+  - `templates/` - Templates for new exercises and solutions
+  - `validation/` - Quality assurance tools
+  - `generators/` - Automated content creation
+  - `examples/` - Configuration examples
+  - `content_types/` - Different learning formats (assessments, projects)
 
 ### 📁 Data Files
 

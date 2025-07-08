@@ -1,0 +1,52 @@
+{
+  "topic_name": "Tuples Advanced",
+  "difficulty_level": "intermediate",
+  "learning_objective": "Master tuple operations, unpacking, and named tuples for data organization",
+  "estimated_time": 45,
+  "data_structures_list": ["tuples", "named tuples"],
+  "exercise_1": {
+    "title": "Data Record Management",
+    "description": "Work with employee records stored as tuples",
+    "sample_data": "employee_records = [('Alice', 'Engineer', 75000), ('Bob', 'Designer', 65000), ('Carol', 'Manager', 85000)]",
+    "tasks": [
+      "Extract all employee names",
+      "Find employees with salary > 70000", 
+      "Calculate average salary"
+    ],
+    "hint": "Use tuple unpacking and list comprehensions"
+  },
+  "exercise_2": {
+    "title": "Coordinate Processing",
+    "description": "Process 2D coordinates for a mapping application",
+    "sample_data": "coordinates = [(0, 0), (3, 4), (6, 8), (1, 1)]",
+    "tasks": [
+      "Calculate distance from origin for each point",
+      "Find the point farthest from origin",
+      "Sort points by distance from origin"
+    ],
+    "hint": "Use math.sqrt and tuple comparison"
+  },
+  "challenge": {
+    "description": "Create a student grade tracking system using named tuples",
+    "data": "Student = namedtuple('Student', ['name', 'grades', 'major'])",
+    "tasks": [
+      "Create Student records with multiple grades",
+      "Calculate GPA for each student",
+      "Group students by major with average GPA"
+    ],
+    "hint": "Import namedtuple from collections",
+    "focus": "clean code organization and named tuple benefits"
+  },
+  "include_data": true,
+  "sample_data": {
+    "employees": [
+      {"name": "Alice", "position": "Engineer", "salary": 75000},
+      {"name": "Bob", "position": "Designer", "salary": 65000},
+      {"name": "Carol", "position": "Manager", "salary": 85000}
+    ],
+    "coordinates_2d": [
+      {"x": 0, "y": 0}, {"x": 3, "y": 4}, 
+      {"x": 6, "y": 8}, {"x": 1, "y": 1}
+    ]
+  }
+}

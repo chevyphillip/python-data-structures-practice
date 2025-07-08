@@ -18,11 +18,17 @@ Welcome to the **Python Data Structures Practice** repository! This educational 
 ## 📚 Interactive Learning Path
 
 ### Core Exercises
-1. **[Lists Basics](01_lists_basics.ipynb)** - Foundation list operations (slicing, indexing)
-2. **[Dictionaries Basics](02_dictionaries_basics.ipynb)** - Key-value mappings and lookups  
-3. **[Sets Basics](03_sets_basics.ipynb)** - Unique collections and set operations
-4. **[Combined Practice](04_combined_practice.ipynb)** - Integration of all three structures
-5. **[AI Scenarios](05_ai_scenarios.ipynb)** - AI/ML relevant applications
+1. **[Lists Basics](01_lists_basics.ipynb)** - Foundation list operations (🟢 Beginner)
+2. **[Dictionaries Basics](02_dictionaries_basics.ipynb)** - Key-value mappings and lookups (🟢 Beginner)
+3. **[Sets Basics](03_sets_basics.ipynb)** - Unique collections and set operations (🟢 Beginner)
+4. **[Combined Practice](04_combined_practice.ipynb)** - Integration of all three structures (🟡 Intermediate)
+5. **[AI Scenarios](05_ai_scenarios.ipynb)** - AI/ML relevant applications (🟡 Intermediate)
+6. **[Tuples Advanced](06_tuples_advanced.ipynb)** - Tuple operations and named tuples (🟡 Intermediate)
+
+### 🛠️ Framework & Tools
+- **[Learning Framework](framework/)** - Systematic content creation system
+- **[Enhanced Data](data/enhanced_sample_data.json)** - Rich datasets for practice
+- **[Assessment Tools](framework/content_types/assessments/)** - Interactive quizzes and evaluations
 
 ### 🧠 ADHD-Friendly Design
 - **Short, focused exercises** (~30-45 minutes each)

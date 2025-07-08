@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "description": "Enhanced sample datasets for Python data structures learning",
+    "created_date": "2024-01-01",
+    "version": "2.0",
+    "data_types": ["student_records", "ecommerce", "social_media", "scientific", "financial"]
+  },
+  "student_records": {
+    "students": [
+      {
+        "id": "s001",
+        "name": "Alice Johnson",
+        "age": 20,
+        "major": "Computer Science",
+        "gpa": 3.8,
+        "courses": ["CS101", "MATH201", "ENG101"],
+        "activities": ["robotics", "debate"],
+        "graduation_year": 2025
+      },
+      {
+        "id": "s002", 
+        "name": "Bob Chen",
+        "age": 19,
+        "major": "Data Science",
+        "gpa": 3.6,
+        "courses": ["CS101", "STAT301", "MATH201"],
+        "activities": ["gaming", "tutoring"],
+        "graduation_year": 2026
+      },
+      {
+        "id": "s003",
+        "name": "Carol Davis",
+        "age": 21,
+        "major": "Computer Science", 
+        "gpa": 3.9,
+        "courses": ["CS301", "CS401", "MATH301"],
+        "activities": ["research", "mentoring"],
+        "graduation_year": 2024
+      }
+    ]
+  },
+  "ecommerce": {
+    "products": [
+      {
+        "id": "p001",
+        "name": "Wireless Headphones",
+        "category": "Electronics",
+        "price": 99.99,
+        "rating": 4.5,
+        "reviews": 1250,
+        "tags": ["wireless", "music", "bluetooth"],
+        "in_stock": true
+      },
+      {
+        "id": "p002",
+        "name": "Programming Keyboard",
+        "category": "Electronics",
+        "price": 129.99,
+        "rating": 4.8,
+        "reviews": 890,
+        "tags": ["mechanical", "programming", "rgb"],
+        "in_stock": false
+      },
+      {
+        "id": "p003",
+        "name": "Coffee Mug Set",
+        "category": "Home",
+        "price": 24.99,
+        "rating": 4.2,
+        "reviews": 567,
+        "tags": ["ceramic", "gift", "kitchen"],
+        "in_stock": true
+      }
+    ],
+    "orders": [
+      {
+        "order_id": "o001",
+        "customer_id": "c001",
+        "items": [{"product_id": "p001", "quantity": 1}, {"product_id": "p003", "quantity": 2}],
+        "total": 149.97,
+        "status": "shipped",
+        "order_date": "2024-01-15"
+      },
+      {
+        "order_id": "o002",
+        "customer_id": "c002", 
+        "items": [{"product_id": "p002", "quantity": 1}],
+        "total": 129.99,
+        "status": "processing",
+        "order_date": "2024-01-16"
+      }
+    ]
+  },
+  "social_media": {
+    "posts": [
+      {
+        "post_id": "post001",
+        "user_id": "user123",
+        "content": "Just finished my first Python project! 🐍💻",
+        "timestamp": "2024-01-15T10:30:00Z",
+        "likes": 45,
+        "comments": ["Great job!", "Keep it up!", "What was the project about?"],
+        "hashtags": ["python", "coding", "beginners"],
+        "engagement_rate": 0.15
+      },
+      {
+        "post_id": "post002", 
+        "user_id": "user456",
+        "content": "Data structures are fascinating! Working on binary trees now.",
+        "timestamp": "2024-01-16T14:20:00Z",
+        "likes": 67,
+        "comments": ["Trees are tricky at first", "Good luck!", "Try recursive approaches"],
+        "hashtags": ["datastructures", "algorithms", "trees"],
+        "engagement_rate": 0.22
+      }
+    ],
+    "users": [
+      {
+        "user_id": "user123",
+        "username": "alice_codes",
+        "followers": 150,
+        "following": 200,
+        "posts_count": 25,
+        "bio": "Computer Science student | Python enthusiast",
+        "interests": ["programming", "ai", "gaming"]
+      },
+      {
+        "user_id": "user456",
+        "username": "bob_algorithms", 
+        "followers": 300,
+        "following": 180,
+        "posts_count": 40,
+        "bio": "Data structures and algorithms explorer",
+        "interests": ["algorithms", "math", "teaching"]
+      }
+    ]
+  },
+  "scientific": {
+    "experiments": [
+      {
+        "experiment_id": "exp001",
+        "title": "Temperature Analysis",
+        "scientist": "Dr. Smith",
+        "measurements": [
+          {"day": 1, "temperature": 23.5, "humidity": 65},
+          {"day": 2, "temperature": 24.1, "humidity": 62},
+          {"day": 3, "temperature": 22.8, "humidity": 68},
+          {"day": 4, "temperature": 25.2, "humidity": 60},
+          {"day": 5, "temperature": 23.9, "humidity": 64}
+        ],
+        "hypothesis": "Temperature affects humidity levels",
+        "conclusion": "Inverse correlation observed"
+      }
+    ],
+    "dna_sequences": {
+      "sample_a": "ATCGATCGATCG",
+      "sample_b": "GCTAGCTAGCTA", 
+      "sample_c": "TTAACCGGTTAA"
+    }
+  },
+  "financial": {
+    "stock_data": [
+      {
+        "symbol": "TECH", 
+        "date": "2024-01-15",
+        "open": 150.00,
+        "high": 155.25,
+        "low": 148.50,
+        "close": 153.75,
+        "volume": 1250000
+      },
+      {
+        "symbol": "TECH",
+        "date": "2024-01-16", 
+        "open": 153.75,
+        "high": 158.00,
+        "low": 152.25,
+        "close": 156.50,
+        "volume": 1100000
+      }
+    ],
+    "portfolio": {
+      "positions": [
+        {"symbol": "TECH", "shares": 100, "avg_cost": 145.00},
+        {"symbol": "HEALTH", "shares": 50, "avg_cost": 78.25},
+        {"symbol": "ENERGY", "shares": 75, "avg_cost": 92.50}
+      ],
+      "cash_balance": 5000.00,
+      "total_value": 25000.00
+    }
+  },
+  "ai_models": [
+    {
+      "name": "GPT-4",
+      "type": "language_model",
+      "parameters": "1.7T",
+      "training_data": ["web_text", "books", "papers"],
+      "capabilities": ["text_generation", "reasoning", "coding", "translation"],
+      "performance_metrics": {
+        "accuracy": 0.92,
+        "speed": "fast",
+        "memory_usage": "high"
+      }
+    },
+    {
+      "name": "BERT-Large",
+      "type": "language_model",
+      "parameters": "340M", 
+      "training_data": ["books", "wikipedia"],
+      "capabilities": ["text_classification", "sentiment_analysis", "qa"],
+      "performance_metrics": {
+        "accuracy": 0.88,
+        "speed": "medium",
+        "memory_usage": "medium"
+      }
+    },
+    {
+      "name": "ResNet-50",
+      "type": "vision_model",
+      "parameters": "25M",
+      "training_data": ["imagenet"],
+      "capabilities": ["image_classification", "feature_extraction"],
+      "performance_metrics": {
+        "accuracy": 0.76,
+        "speed": "fast",
+        "memory_usage": "low"
+      }
+    }
+  ]
+}
